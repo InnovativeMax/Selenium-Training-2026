@@ -1,4 +1,4 @@
-package com.selenium.topics.webdriver;
+package com.selenium.topics.a_webdriver.code;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
