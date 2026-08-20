@@ -1,0 +1,11 @@
+Parent - //button[text()='Add to cart']/ancestor::div[@class='inventory_item_description']
+
+Ancestor - //button[text()='Add to cart']/ancestor::div[@class='inventory_item_description']
+
+child - //div[@class='pricebar']/child::button
+
+descendant - (//div[@class='inventory_item']/descendant::button)[1]
+
+preceeding-sibling - //button[text()='Add to cart']/preceding-sibling::div
+
+following-sibling - //div[text()='29.99']/following-sibling::button

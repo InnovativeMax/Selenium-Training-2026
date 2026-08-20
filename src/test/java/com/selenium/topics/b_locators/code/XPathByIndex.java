@@ -15,32 +15,23 @@ public class XPathByIndex {
 
         Thread.sleep(2000);
 
-        driver.findElement(By.id("user-name"))
-                .sendKeys("standard_user");
+        driver.findElement(By.id("user-name")).sendKeys("standard_user");
 
-        driver.findElement(By.id("password"))
-                .sendKeys("secret_sauce");
+        driver.findElement(By.id("password")).sendKeys("secret_sauce");
 
-        driver.findElement(By.id("login-button"))
-                .click();
+        driver.findElement(By.id("login-button")).click();
 
         Thread.sleep(3000);
 
         // First product
-        driver.findElement(
-                By.xpath("(//div[@class='inventory_item'])[1]")
-        ).click();
+        driver.findElement(By.xpath("(//button[text()='Add to cart'])[1]")).click();
+
+        // Second product
+        driver.findElement(By.xpath("(//button[text()='Add to cart'])[last()]")).click();
 
         Thread.sleep(3000);
 
-        driver.navigate().back();
-
-        Thread.sleep(2000);
-
-        // Second product
-        driver.findElement(
-                By.xpath("(//div[@class='inventory_item'])[2]")
-        ).click();
+        driver.findElement(By.className("shopping_cart_link")).click();
 
         Thread.sleep(3000);
 
