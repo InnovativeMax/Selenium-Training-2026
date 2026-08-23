@@ -1,0 +1,19 @@
+1. click() - used to click on element
+2. clear() - used to clear existing / entered value in a field/textbox/text area
+3. sendKeys(String valueToBeEntered) - used to enter value into field/textbox/text area
+4. getText()
+5. getAttribute()
+6. getDomAttribute()
+7. getCssValue()
+8. isEnabled()
+9. isSelected()
+10. isDisplayed()
+11. getSize()
+12. getLocation()
+13. getRect()
+14. getTagName()
+15. submit()
+
+---------------Difference Between-----------------
+16. findElement()
+17. findElements()
