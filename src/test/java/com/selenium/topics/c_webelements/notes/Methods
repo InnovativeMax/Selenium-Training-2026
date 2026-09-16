@@ -1,19 +1,20 @@
 1. click() - used to click on element
 2. clear() - used to clear existing / entered value in a field/textbox/text area
 3. sendKeys(String valueToBeEntered) - used to enter value into field/textbox/text area
-4. getText()
-5. getAttribute()
-6. getDomAttribute()
-7. getCssValue()
-8. isEnabled()
+4. getText() - Used to fetch text from web element
+5. getAttribute() - Used to fetch value present in a particular attribute
+6. getDomAttribute() - in future
+7. getProperty() - in future
+7. getCssValue() - Used Whenever we want do a cosmetic validation (Look of the UI)
+8. isEnabled() - checks if element is enambled (if enabled returns true, else false) ideally used for <button>, <input>, <select>, <textarea>
 9. isSelected()
-10. isDisplayed()
-11. getSize()
-12. getLocation()
-13. getRect()
-14. getTagName()
-15. submit()
+10. isDisplayed() - Verifies if an element is displayed on UI
+11. getSize() - To verify height & width of element
+12. getLocation() - to verify Allignment of element
+13. getRect() - to verify both height, width & Allignment
+14. getTagName() - Returns the tag name of the element in String format
+15. submit() - it is used to click on buttons which comes under <form> tag
 
 ---------------Difference Between-----------------
-16. findElement()
-17. findElements()
+16. findElement() - Is used to handle single element. Returns WebElement type Object
+17. findElements() - Is used to handle Multiple Elements. Returns List<WebElement> type Object

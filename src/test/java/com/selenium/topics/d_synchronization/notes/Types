@@ -1,0 +1,4 @@
+1. Implicit Wait - Are applied only for findElement() & findElements method.
+2. Explicit Wait - Are applied for any line of code, but we need to use something called "Expected Condition"
+3. Fluent Wait - Are applied for any line of code as well, we will use "Expected Conditions" here as well. But it is much safer than Explicit Wait
+4. Hard Wait - Thread.sleep(5000)
